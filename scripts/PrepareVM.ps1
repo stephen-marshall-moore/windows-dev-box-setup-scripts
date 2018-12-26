@@ -1,5 +1,7 @@
 # install Windows Update by default critical only
 # then vmware tools
 #
-Install-WindowsUpdate
+Enable-WindowsUpdate
+Install-WindowsUpdate -eula
+Disable-WindowsUpdate
 choco install vmware-tools
