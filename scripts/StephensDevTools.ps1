@@ -5,4 +5,4 @@ choco install sysinternals
 choco install sublimetext3
 choco install googlechrome
 # visual studio
-choco install visualstudio2017professional --package-parameters "--allWorkloads --includeRecommended --locale en-US"
+choco install visualstudio2017professional
