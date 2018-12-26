@@ -4,4 +4,4 @@
 #Enable-MicrosoftUpdate
 Install-WindowsUpdate -eula
 #Disable-MicrosoftUpdate
-choco install vmware-tools
+choco install --ignore-package-exit-codes vmware-tools
