@@ -22,7 +22,7 @@ function executeScript {
 }
 
 #--- Setting up Windows ---
-executeScript "PrepareVM.ps1";
+#executeScript "PrepareVM.ps1";
 executeScript "vmconfig.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
