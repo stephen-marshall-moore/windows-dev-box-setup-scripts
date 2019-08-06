@@ -3,4 +3,6 @@ Import-Certificate -FilePath '\\vmware-host\Shared Folders\vmconfig\certs\root_c
 Import-Certificate -FilePath '\\vmware-host\Shared Folders\vmconfig\certs\star_cylance_com.cer'  -CertStoreLocation 'Cert:\LocalMachine\Root'
 New-Item -ItemType 'directory' -Path 'C:\Users\stephen\.ssh'
 Copy-Item -Path '\\vmware-host\Shared Folders\vmconfig\.ssh\*'  -Destination 'C:\Users\stephen\.ssh\'
+Copy-Item -Path '\\vmware-host\Shared Folders\vmconfig\chocoVM.config'  -Destination 'C:\Users\stephen\'
+Copy-Item -Path '\\vmware-host\Shared Folders\vmconfig\studioVM.vsconfig'  -Destination 'C:\Users\stephen\'
  
