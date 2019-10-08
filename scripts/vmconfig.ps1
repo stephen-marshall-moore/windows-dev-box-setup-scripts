@@ -5,4 +5,4 @@ Import-Certificate -FilePath '\\vmware-host\Shared Folders\vmconfig\certs\cylanc
 New-Item -ItemType 'directory' -Path $Env:HomePath\.ssh
 Copy-Item -Path '\\vmware-host\Shared Folders\vmconfig\.ssh\*'  -Destination $Env:HomePath\.ssh\
 wget 'https://raw.githubusercontent.com/stephen-marshall-moore/windows-dev-box-setup-scripts/useconfig/config/chocoVM.config'  -OutFile $Env:HomePath\chocoVM.config
-wget 'https://raw.githubusercontent.com/stephen-marshall-moore/windows-dev-box-setup-scripts/useconfig/config/studio2017.vsconfig'  -OutFile $Env:HomePath\.vsconfig
+wget 'https://raw.githubusercontent.com/stephen-marshall-moore/windows-dev-box-setup-scripts/useconfig/config/studio2019.vsconfig'  -OutFile $Env:HomePath\.vsconfig
